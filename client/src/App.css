@@ -1,6 +1,8 @@
-.App {
-  text-align: center;
-}
+.button  {
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em
+  ;}
 
 .App-logo {
   height: 40vmin;
