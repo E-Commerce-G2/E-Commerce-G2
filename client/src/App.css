@@ -35,7 +35,7 @@ nav a:hover{
 }
 /* Logo here */
 nav:before{
-  content:"NodCMS";
+  content:"TECHSTORE";
   position:absolute;
   left:10px;
   font-size:10px;
