@@ -35,7 +35,7 @@ nav a:hover{
 }
 /* Logo here */
 nav:before{
-  content:"NodCMS";
+  content:"TECHSTORE";
   position:absolute;
   left:10px;
   font-size:10px;
@@ -71,9 +71,9 @@ nav:before{
   z-index:0
 }
 @keyframes fader {
-  0%,30%,100%{ background-image:url(https://68.media.tumblr.com/02ace438b88c1b42acdf041c9cfb40a0/tumblr_oj92canMJ21vm743bo1_1280.jpg)}
-33%,60% { background-image: url(https://68.media.tumblr.com/6dd9c3eb4e1b814138cd88808fa4924c/tumblr_oix3a6uSrb1tgbn6xo1_1280.jpg); }
-63%,97% { background-image: url(https://68.media.tumblr.com/9fe927a6c887499af03edae78bdd4538/tumblr_ok4v0050Lo1uz44pdo1_500.jpg) }
+  0%,30%,100%{ background-image:url(https://cdn.originpc.com/img/landing/4k-uncapped/desktops.jpg)}
+33%,60% { background-image: url(https://i.redd.it/btxxfqsjau231.jpg); }
+63%,97% { background-image: url(https://www.gannett-cdn.com/-mm-/a17c0b5b20eb2615bc71e6d724d56c3a9f51462b/c=278-0-4722-2500/local/-/media/2018/12/27/USATODAY/usatsports/Reviewed.com-RvEW-19999-best_gaming_headsets.jpg?width=3200&height=1680&fit=crop) }
 }
 .hero h1{
   padding:.5em;
@@ -105,7 +105,7 @@ nav:before{
   text-align:justify;
   line-height:1.5em;
   letter-spacing:0.02em;
-  background:#fff;
+  background:#f8fafa;
   margin:1em
 }
 
@@ -211,4 +211,79 @@ footer{
   background:rgba(0,0,0,0.2);
   box-shadow:0 0 0px 3px rgba(0,0,0,0.2);
   opacity:0.8
-}#btn-twtr:hover{color:#fff;opacity:1}
+}#btn-twtr:hover{color:#ffffff;opacity:1}
+
+    
+
+    /* Additional styles for the categories */
+    .category-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .category {
+      width: 30%;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+    }
+
+    .category h2 {
+      font-size: 18px;
+      font-weight: bold;
+      color: #293847;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .category ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .category li {
+      margin-bottom: 8px;
+    }
+
+    .group-title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #293847;
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    /* Search bar styles */
+    .search-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .search-container input[type="text"] {
+      width: 50%;
+      padding: 12px;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-size: 16px;
+      outline: none;
+    }
+
+    .search-container button {
+      padding: 12px 20px;
+      border-radius: 20px;
+      border: none;
+      background-color: #5A4FCF;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    .search-container button:hover {
+      background-color: #483f9c;
+    }
+  
